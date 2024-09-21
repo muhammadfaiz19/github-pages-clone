@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      GitHub Pages | Websites for you and your projects, hosted directly from
+      your GitHub repository. Just edit, push, and your changes are live.
+    </title>
+  </head>
+  <body>
+    <header>
+      <section class="hero" id="hero">
+        <img src="./assets/logo.svg" alt="GitHub" class="logo" />
+        <h1>Websites for you and your projects.</h1>
+        <h2>
+          Hosted directly from your
+          <a href="https://github.com">GitHub repository</a>. Just edit, push,
+          and your changes are live.
+        </h2>
+        <a href="https://help.github.com/pages/" class="help-link"
+          >Pages Help</a
+        >
+        <div class="hero-img">
+          <img src="./assets/bootstrap.png" alt="hero-img" />
+        </div>
+      </section>
+    </header>
+
+    <main id="main">
+        <section id="tutorial" class="tutorial">
+          <h1>
+            Ready to get started? Build your own site from scratch or generate one
+            for your project.
+          </h1>
+          <h2>
+            You get one site per GitHub account and organization, <br />and
+            unlimited project sites. Let‘s get started.
+          </h2>
+          <ul class="tabs">
+            <li><a href="#" class="selected">User or organization site</a></li>
+            <li><a href="#">Project site</a></li>
+          </ul>
+        </section>  
+
+        <section id="steps">
+          <div class="step-1">
+            <div class="info-box">
+              <h4>1. Create a repository</h2>
+              <p>Head over to <a href="https://github.com">GitHub</a> and <a data-proofer-ignore="true" href="https://github.com/new">create a new public repository</a> named <em>username</em>.github.io, where <em>username</em> is your username (or organization name) on GitHub.</p>
+              <p class="details">If the first part of the repository doesn’t exactly match your <em>username</em>, it won’t work, so make sure to get it right.</p>
+            </div>
+            <div class="img-box">
+              <img src="assets/repo.png" alt="Create Repo"/>
+            </div>
+          </div>
+
+          <div class="step">
+              <h4>2. What git client are you using?</h4>
+              <ul class="tabs">
+                <li><a id="option-terminal" href="#terminal-step-1" class="selected">A terminal</a></li>
+                <li><a id="option-desktop" href="#setup-in-desktop">GitHub Desktop</a></li>
+                <li><a id="option-newuser" href="#new-user-step-1">I don't know</a></li>
+              </ul>
+          </div>
+
+          <div class="step">
+              <h4>3. Clone the repository</h2>
+              <pre><code>$ git clone https://github.com/username/username.github.io</code></pre>
+          </div>
+
+          <div class="step">
+              <h4>4. Hello World</h4>
+              <p>Enter the project folder and add an index.html file:</p>
+              <pre><code>
+  $ cd username.github.io
+  $ echo "Hello World" > index.html
+              </code></pre>
+          </div>
+
+          <div class="step">
+              <h2>5. Push it</h2>
+              <p>Add, commit, and push your changes:</p>
+              <pre><code>
+  $ git add --all
+  $ git commit -m "Initial commit"
+  $ git push -u origin main
+              </code></pre>
+          </div>
+
+          <div class="step">
+              <h2>6. You're done!</h2>
+              <p>Fire up a browser and go to <a href="https://username.github.io">https://username.github.io</a></p>
+              <img src="/assets/check.svg" alt="checklist" width="100px" class="check">
+            </div>
+      </section>
+    </main>
+    <section class="next-steps">
+      <h2>Now that you're up and running, here are a few things you should know</h2>
+      <div class="info-boxes">
+          <div class="info">
+              <img src="/assets/pencil.svg" alt="" width="60px">
+              <h4>Blogging with Jekyll</h4>
+              <p>Using Jekyll, you can blog using beautiful Markdown syntax, and without having to deal with any databases. Learn how to set up Jekyll.</p>
+          </div>
+          <div class="info">
+              <img src="/assets/link.svg" alt="" width="60px" >
+              <h4>Custom URLs</h4>
+              <p>Want to use your own custom domain for a GitHub Pages site? Just create a file named CNAME and include your URL. Read more.</p>
+          </div>
+          <div class="info">
+              <img src="/assets/book.svg" alt="" width="60px">
+              <h4>Guides</h4>
+              <p>Learn how to create custom 404 pages, use submodules, and learn more about GitHub Pages.</p>
+          </div>
+      </div>
+  </section>
+  </body>
+</html>
