@@ -1,12 +1,6 @@
-# GitHub Pages Clone
+# Task 1 Productzilla Academy
+Cloning Github Pages web using HTML and CSS
+
 
 ![Logo](https://github.com/muhammadfaiz19/github-pages-clone/blob/main/assets/ss-github-pages-clone.png)
 
-# Clone repositori
-git clone https://github.com/muhammadfaiz19/github-pages-clone.git
-
-# Masuk ke direktori proyek
-cd github-pages-clone
-
-# Pull
-git pull
