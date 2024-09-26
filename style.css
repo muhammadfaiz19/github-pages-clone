@@ -298,11 +298,20 @@ h4 {
 
 .info img {
     margin-bottom: 20px;
+    cursor: pointer;
+    width: 60px;
 }
 
-.info h4 {
+.info a{
+    text-decoration: none;
+    color: #327fc7;
+}
+.info a h4 {
     margin-top: 0;
     font-size: 24px;
+    font-weight: 400;
+    
+    
 }
 
 @media (min-width: 768px) {
